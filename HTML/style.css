@@ -1,0 +1,188 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  /* font-family: Arial, sans-serif; */
+  /* font-family: "Montserrat", sans-serif; */
+
+  margin: 0;
+  padding: 0;
+  background: #f7f7f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: linear-gradient(to bottom, #77778a, #818ea2);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  /* Other CSS styles for header h1 */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: white; /* Change text color to white */
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 20px; /* Round the buttons */
+  background-color: #344706; /* Button background color */
+}
+nav ul li a:hover {
+  background-color: #c2cdec; /* Change background color on hover */
+}
+/* .profile-image {
+  width: 30%;
+  border-radius: 50%;
+} */
+.profile-image {
+  width: 100%;
+  max-width: 300px; /* Adjust as needed */
+  border-radius: 50%;
+}
+
+/* .about-me {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 20px;
+  text-align: left;
+} */
+p {
+  word-spacing: 5px; /* Adjust the spacing as needed */
+}
+.about-me-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* .section-title {
+  text-align: center;
+  margin-bottom: 20px;
+} */
+.about-title {
+  text-align: right;
+  margin-bottom: 20px;
+}
+.about-me {
+  width: 70%;
+  /* margin-left: 20px; */
+}
+
+.about-me p {
+  margin-bottom: 20px;
+}
+
+.about-me b {
+  font-weight: bold;
+}
+.main {
+  padding: 20px 0;
+}
+
+.section {
+  padding: 50px 0;
+  text-align: center;
+}
+.page-links {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+.page-links a {
+  display: inline-block;
+  /* margin-right: 20px; */
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(10, 5, 5);
+  border-radius: 50%;
+  background-color: #5bb3d4; /* Light blue background color */
+  padding: 10px 15px;
+}
+
+.page-links a:last-child {
+  margin-right: 0; /* Remove margin from last link */
+}
+
+.page-links a:hover {
+  background-color: #6aa9e8; /* Darker blue background color on hover */
+}
+.page-links a.videos-link {
+  display: inline-block;
+  margin: 10px; /* Add equal margin on all sides */
+  text-decoration: none;
+  color: rgb(10, 3, 3);
+  border-radius: 50%;
+  background-color: #e5b46a; /* Light orange background color for videos link */
+  padding: 10px 15px;
+}
+
+.page-links a.videos-link:hover {
+  background-color: #ffac33; /* Darker orange background color on hover for videos link */
+}
+
+.project-description {
+  text-align: left;
+  font-family: "Montserrat", sans-serif; /* Use Montserrat font */
+}
+.page-links1 {
+  text-align: center;
+  margin-top: -1px;
+  margin-left: -27px;
+}
+.page-links1 a {
+  display: inline-block;
+  /* margin-right: 20px; */
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(10, 5, 5);
+  border-radius: 50%;
+  background-color: #5bb3d4; /* Light blue background color */
+  padding: 10px 15px;
+}
+
+.page-links2 {
+  text-align: center;
+  margin-top: -40px;
+  margin-left: -27px;
+}
+.page-links2 a {
+  display: inline-block;
+  /* margin-right: 20px; */
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(10, 5, 5);
+  border-radius: 50%;
+  background-color: #5bb3d4; /* Light blue background color */
+  padding: 10px 15px;
+}
+
+.light-bg {
+  background-color: #f9f9f9;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.video {
+  margin-bottom: 20px;
+}

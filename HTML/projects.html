@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Arduino Projects Portfolio - Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Projects</h1>
+        <nav>
+          <ul>
+            <!-- <li><a href="index.html#about">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="videos.html">Videos</a></li> -->
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="projects" class="section light-bg">
+        <div class="container">
+          <!-- <h2>Projects</h2> -->
+          <div class="project">
+            <h3>Project 1: Automated Traffic Light Control</h3>
+            <p class="project-description">
+              <b>Description:</b> This project implements an automated traffic
+              light control system using Arduino. It simulates traffic flow and
+              adjusts signal timings accordingly.In this project, 2 RGB LED's
+              are used. one for pedestrains and one for vehicles.(3 LED's for
+              vehicles and 2 for pedestrians can also be used). Based on the
+              timings needed for each LED to glow,arduino programming code has
+              been implemented on an online simulator and the results were
+              achieved. The code can be used to simulate and test traffic light
+              sequences for real-world intersections, helping to optimize
+              traffic flow and reduce congestion.
+            </p>
+          </div>
+          <div class="project">
+            <h3>Project 2: Right scrolling marquee Message on CLCD</h3>
+            <p class="project-description">
+              <b>Description:</b> As soon as the Arduino board is setup, a
+              static message starts scrolling from left to right..The process of
+              implementing this project starts with initialising the CLCD using
+              the command and data functions.. and writing the logic for
+              displaying the characters on the CLCD. This type of codes can be
+              applied for Information displays,Data visualisation,Eductional
+              displays and creative projects.
+            </p>
+          </div>
+          <div class="project">
+            <h3>Project 3: TIMER seperator</h3>
+            <p class="project-description">
+              <b>Description:</b> In this project, 3 LED's are assigned to
+              specific timers of the ATmega328P controller(TIMER 0,1,2). Each
+              timers are programmed in such a way that all the 3 LED's start and
+              stop at every 0.5 sec..(at the same time).. Timers are configured
+              first and an ISR(Interrupt service Routine) function is called
+              based on the requirement.This type of code is used in
+              signalling,visual indicators like alarms. Concept of synchronizing
+              actions using timers can be applied in various real-world
+              scenarios to create synchronized and coordinated systems.
+            </p>
+          </div>
+          <div class="project">
+            <h3>Project 4: 10-Digit up-Counter and Down-counter</h3>
+            <p class="project-description">
+              <b>Description:</b> In this project,a 10 digit number "0000000000"
+              is initialised and using the loop logic it is incremented to
+              "9999999999" one number each at a time.. we can control the speed
+              of the increment can be changed by introducing a delay..In down
+              counter, action is opposite. The increment/decrement can be viewed
+              on CLCD.This is used in Industrial Automation to track number of
+              products produced or processed,sports count,Gaming devices to
+              display the scores etc..
+            </p>
+          </div>
+          <!-- <div class="project">
+            <h3>Project 5: Your Project Titl</h3>
+            <p>Description: Your project description here...</p>
+          </div> -->
+          <div class="project">
+            <h3>Project 5: Industrial Machine State Monitoring System</h3>
+            <p class="project-description">
+              <b>Description:</b> In this project ,system is designed to monitor
+              the state of a machine using three sensors: a temperature sensor,
+              a humidity sensor, and a potentiometer. The data from these
+              sensors is sent to the client, which can be a web browser, and
+              also to the cloud using an ethernet shield. We used the picsimlab
+              Arduino simulator, which has an ethernet shield, to send the data
+              to the browser. The data is displayed on the local host IP address
+              on port 80. Additionally, the sensor data is sent to Thingspeak
+              cloud using a write API key. This allows us to view the data of
+              the sensors on respective dashboards in order to monitor changes
+              in the sensor data in real-time. The same data is also viewed on
+              the serial monitor of the Arduino IDE. This provides a
+              comprehensive and real-time view of the sensor data, allowing for
+              effective monitoring and analysis. This system provides a robust
+              and comprehensive solution for monitoring industrial machine
+              states, allowing for real-time data viewing and analysis both
+              locally and in the cloud.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="links" class="section">
+        <div class="container">
+          <div class="page-links1">
+            <a href="index.html#about">About</a>
+            <a href="videos.html">Videos</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <!-- <p>&copy; 2022 My Arduino Projects Portfolio. All rights reserved.</p> -->
+      </div>
+    </footer>
+  </body>
+</html>
